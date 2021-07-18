@@ -1,0 +1,12 @@
+1.connect to a wired internet connection 
+2.sudo apt-update 
+3.sudo apt install -y dkms git
+4.git clone https://github.com/anantbarthwal/Realtek-RTL8821CE-WiFi-Driver-on-Ubuntu-20.04.git
+DICONNECT INTERNET
+5.cd rtl8821ce
+6.sudo ./dkms-install.sh
+7.sudo modprobe 8821ce
+
+
+P.S. Secure Boot must be disabled ! 
+
